@@ -1,0 +1,8 @@
+fever={headache,null}=communicable
+pain={body-part,null}=non-communicable
+fracture={body-part,null}=non-communicable
+cough={cold,null}=communicable
+cold={cough,null}=communicable
+breathing={problem,effect,null}=non-communicable
+bleeding={null}=non-communicable
+headache={fever,stress,anxiety,null}=non-communicable

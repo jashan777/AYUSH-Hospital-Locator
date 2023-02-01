@@ -1,0 +1,79 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="12dp"
+            android:height="12dp"
+            android:viewportWidth="12"
+            android:viewportHeight="12">
+            <group android:name="group">
+                <path
+                    android:name="part4"
+                    android:pathData="M 12.614 5.349 L 10.38 7.098 L 8.581 8.506 L 5.645 10.804 L 3.809 12.242 L 12.614 12.242 L 12.614 11.283 Z"
+                    android:fillColor="#f0445e"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="part2"
+                    android:pathData="M 6.356 1.612 C 6.255 1.612 6.173 1.703 6.173 1.815 L 6.173 2.437 L 5.551 2.437 C 5.439 2.437 5.348 2.519 5.348 2.62 C 5.348 2.722 5.439 2.803 5.551 2.803 L 6.173 2.803 L 6.173 3.425 C 6.173 3.538 6.255 3.629 6.356 3.629 C 6.458 3.629 6.539 3.538 6.539 3.425 L 6.539 2.803 L 7.161 2.803 C 7.274 2.803 7.365 2.722 7.365 2.62 C 7.365 2.519 7.274 2.437 7.161 2.437 L 6.539 2.437 L 6.539 1.815 C 6.539 1.703 6.458 1.612 6.356 1.612 Z"
+                    android:fillColor="#432967"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="part3"
+                    android:pathData="M 8.079 1.511 L 7.518 1.95 C 7.625 2.135 7.686 2.343 7.696 2.556 L 7.698 2.62 C 7.698 3.355 7.107 3.953 6.372 3.962 C 6.02 3.966 5.681 3.831 5.427 3.587 L 3.025 5.467 L 0.099 7.758 L 0.099 12.242 L 3.137 12.242 L 7.91 8.506 L 10.38 6.573 L 10.38 6.569 L 10.38 6.573 L 12.446 4.955 L 9.485 2.62 Z"
+                    android:fillColor="#c3305d"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="part1"
+                    android:pathData="M 6.356 0.153 L 3.227 2.62 L 0.099 5.087 L 0.099 7.232 L 2.354 5.467 L 5.176 3.258 C 5.076 3.072 5.02 2.864 5.015 2.652 C 4.998 1.918 5.574 1.306 6.308 1.28 C 6.323 1.279 6.339 1.279 6.354 1.279 L 6.354 1.279 L 6.354 1.279 C 6.689 1.278 7.011 1.403 7.259 1.628 L 7.744 1.248 Z"
+                    android:fillColor="#782d65"
+                    android:strokeWidth="1"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="part1">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="fillAlpha"
+                android:duration="375"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/anticipate_interpolator"/>
+        </aapt:attr>
+    </target>
+    <target android:name="part2">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="fillAlpha"
+                android:duration="750"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/anticipate_interpolator"/>
+        </aapt:attr>
+    </target>
+    <target android:name="part3">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="fillAlpha"
+                android:duration="1125"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/anticipate_interpolator"/>
+        </aapt:attr>
+    </target>
+    <target android:name="part4">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="fillAlpha"
+                android:duration="1500"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/anticipate_interpolator"/>
+        </aapt:attr>
+    </target>
+</animated-vector>
